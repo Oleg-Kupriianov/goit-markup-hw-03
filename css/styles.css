@@ -9,12 +9,46 @@
   --address-color-mail-tel: rgba(255, 255, 255, 0.6);
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: var(--color-bg-white);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  outline: 1px solid tomato;
+}
+
+.section {
+  padding: 94px 0;
+}
+
 .list {
   list-style: none;
 }
@@ -96,10 +130,29 @@ body {
   color: var(--color-bg-blue);
 }
 
-/* hero */
+/* hero 
+=============================================================*/
+
+/* .link {
+  display: inline-block;
+  padding: 16px 32px;
+
+  border-radius: 3px;
+  background-color: teal;
+  color: white;
+
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+} */
+
 .hero {
   color: var(--color-bg-white);
-  background: var(--color-bg-hero-footer-);
+  background: var(--color-bg-hero-footer);
+  height: 600px;
+  outline: 2px solid tomato;
 }
 
 .hero-title {
@@ -109,6 +162,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  /* display: none; */
 }
 
 .button {
@@ -133,6 +187,10 @@ body {
 }
 
 /* Features */
+
+.features {
+  outline: 1px solid tomato;
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -148,6 +206,10 @@ body {
 }
 
 /* work */
+
+.work {
+  outline: 1px solid tomato;
+}
 .work-title,
 .team-title {
   color: var(--color-logo-title);
@@ -157,9 +219,14 @@ body {
   text-align: center;
 }
 
+/* .list {
+  background-color: #f44336;
+} */
+
 /* team */
 .team {
   background: var(--secondary-background);
+  outline: 1px solid tomato;
 }
 .team-list {
   background: var(--color-bg-white);
@@ -181,6 +248,15 @@ body {
 }
 
 /* Profile */
+
+.portfolio-buttons {
+  outline: 1px solid tomato;
+}
+
+.gallery {
+  outline: 1px solid tomato;
+}
+
 .gallery-title {
   font-weight: 700;
   font-size: 18px;
