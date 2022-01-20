@@ -219,6 +219,7 @@ img {
 
 .features {
   background: var(--color-bg-white);
+  padding-bottom: 47px;
 }
 
 .features-list {
@@ -251,6 +252,10 @@ img {
 }
 
 /*================================ WORK====================================== */
+.work {
+  padding-top: 47px;
+}
+
 .work-title,
 .team-title {
   color: var(--color-logo-title);
@@ -390,8 +395,17 @@ img {
 
 /* ====================Portfolio======================== */
 
-.hidden {
-  color: transparent;
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .portfolio-buttons {
