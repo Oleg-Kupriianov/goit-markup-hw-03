@@ -215,7 +215,7 @@ img {
   cursor: pointer;
 }
 
-/*===================================== Features ====================*/
+/*===================================== FEATURES ====================*/
 
 .features {
   background: var(--color-bg-white);
@@ -224,7 +224,6 @@ img {
 .features-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .features-items {
@@ -241,6 +240,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-text {
@@ -250,7 +250,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/*================================ Work====================================== */
+/*================================ WORK====================================== */
 .work-title,
 .team-title {
   color: var(--color-logo-title);
@@ -266,7 +266,7 @@ img {
   justify-content: space-between;
 }
 
-/*======================== Team ==============================*/
+/*======================== TEAM ==============================*/
 .team {
   background: var(--secondary-background);
 }
@@ -294,13 +294,14 @@ img {
 }
 
 .team-profession {
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
-/* =========================Profile========================== */
+/* ========================= PROFILE ========================== */
 
 .gallery-title {
   font-weight: 700;
@@ -316,7 +317,7 @@ img {
   line-height: 1.87;
 }
 
-/* ==========================Footer ================================*/
+/* ========================== FOOTER ================================*/
 .footer {
   background: var(--color-bg-hero-footer);
   padding-top: 60px;
